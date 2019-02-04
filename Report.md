@@ -9,10 +9,8 @@
 Following structure was used for agent:
 
 + Feature layer: Linear ReLu (37, 64)
-+ Advantage layer 1: NoisyNet ReLu (64, 64)
-+ Advantage layer 2: NoisyNet Relu (64, 4)
-+ Value layer 1: NoisyNet ReLu (64, 64)
-+ Value layer 2: NoisyNet Relu (64, 1)
++ First hidden layer: ReLu (64, 64)
++ Second hidden layer: Relu (64, 4)
 
 ## Hyperparameters
 + Learning rate (lrate): 0.0001
